@@ -4,8 +4,9 @@
 
 <a href="https://trendshift.io/repositories/15286" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15286" alt="666ghj%2FBettaFish | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-<a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
-<a href="https://open.anspire.cn/?share_code=3E1FUOUH" target="_blank"><img src="./static/image/logo_anspire.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
+<a href="https://inferera.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
+<a href="https://open.anspire.cn/?share_code=3E1FUOUH" target="_blank"><img src="./static/image/logo_anspire.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
+<a href="https://go.apimart.ai/gh-xxbettafish" target="_blank"><img src="./static/image/logo_apimart.png" alt="APIMart Logo" height="40"/></a>
 
 [![GitHub Stars](https://img.shields.io/github/stars/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/stargazers)
 [![GitHub Watchers](https://img.shields.io/github/watchers/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/watchers)
@@ -22,13 +23,6 @@
 [English](./README-EN.md) | [中文文档](./README.md)
 
 </div>
-
-> [!IMPORTANT]  
-> 查看我们最新发布的预测引擎：[MiroFish-简洁通用的群体智能引擎，预测万物](https://github.com/666ghj/MiroFish)
-> 
-> <img src="static/image/MiroFish_logo_compressed.jpeg" alt="banner" width="300">
->
-> “数据分析三板斧”全线贯通：我们激动的宣布 MiroFish 正式发布！随着最后一块版图补齐，我们构建了从 BettaFish（数据收集与分析）到 MiroFish（全景预测）的完整链路。至此，从原始数据到智能决策的闭环已成，让预见未来成为可能！
 
 ## ⚡ 项目概述
 
@@ -70,11 +64,16 @@
 
 ## 🪄 赞助商
 
-LLM模型API赞助：<a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
+LLM模型API赞助：<a href="https://inferera.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
 
 <details>
 <summary>AI联网搜索、文件解析及网页内容抓取等智能体核心能力提供商：</a><span style="margin-left: 10px"><a href="https://open.anspire.cn/?share_code=3E1FUOUH" target="_blank"><img src="./static/image/logo_anspire.png" alt="666ghj%2FBettaFish | Trendshift" height="50"/></a></summary>
 安思派开放平台(Anspire Open)是面向智能体时代的领先的基础设施提供商。我们为开发者提供构建强大智能体所需的核心能力栈，现已上线AI联网搜索【多版本，极具竞争力的价格】、文件解析【限免】及网页内容抓取【限免】、云端浏览器自动化（Anspire Browser Agent）【内测】、多轮改写等服务，持续为智能体连接并操作复杂的数字世界提供坚实基础。可无缝集成至Dify、Coze、元器等主流智能体平台。通过透明点数计费体系与模块化设计，为企业提供高效、低成本的定制化支持，加速智能化升级进程。
+</details>
+
+<details>
+<summary>专注 AI 图片/视频生成的低价 API 平台，GPT-Image-2 低至 $0.006/张：&ensp;<a href="https://go.apimart.ai/gh-xxbettafish" target="_blank"><img src="./static/image/logo_apimart.png" alt="APIMart Logo" height="50"/></a></summary>
+感谢 APIMart 赞助了本项目！APIMart 是专注 AI 图片/视频生成的低价 API 平台，GPT-Image-2 低至 $0.006/张，1 美元可出图 160+ 张。图片、视频一套异步 API 通吃，提交任务拿 ID、回调取结果，跑批万张不超时、换模型不改代码。按量付费、无月费，通过<a href="https://go.apimart.ai/gh-xxbettafish" target="_blank">此注册链接</a>注册即可开用。
 </details>
 
 ## 🏗️ 系统架构
@@ -577,7 +576,7 @@ SENTIMENT_CONFIG = {
 >from openai import OpenAI
 >
 >client = OpenAI(api_key="your_api_key", 
->                base_url="https://aihubmix.com/v1")
+>                base_url="https://inferera.com/v1")
 >
 >response = client.chat.completions.create(
 >    model="gpt-4o-mini",
@@ -753,7 +752,7 @@ class DeepSearchAgent:
 
 ### 获取帮助
 
-常见问题解答：https://github.com/666ghj/BettaFish/issues/185
+常见问题解答：https://github.com/666ghj/BettaFish/issues/700
 
 - **项目主页**：[GitHub仓库](https://github.com/666ghj/BettaFish)
 - **问题反馈**：[Issues页面](https://github.com/666ghj/BettaFish/issues)
@@ -761,7 +760,7 @@ class DeepSearchAgent:
 
 ### 联系方式
 
-- 📧 **邮箱**：hangjiang@bupt.edu.cn
+- 📧 **邮箱**：baifu.guohj@gmail.com
 
 ### 商务合作
 
@@ -785,11 +784,11 @@ class DeepSearchAgent:
 
 ## 📈 项目统计
 
-<a href="https://www.star-history.com/#666ghj/BettaFish&type=date&legend=top-left">
+<a href="https://github.com/666ghj/BettaFish">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=666ghj/BettaFish&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=666ghj/BettaFish&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=666ghj/BettaFish&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="static/image/star-history-dark.svg" />
+   <source media="(prefers-color-scheme: light)" srcset="static/image/star-history-light.svg" />
+   <img alt="BettaFish Star History Chart" src="static/image/star-history-light.svg" />
  </picture>
 </a>
 
